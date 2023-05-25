@@ -16,11 +16,7 @@ Spring提供了多个`ApplicationContext`接口的实现。在独立应用程序
 
 下面的图表展示了Spring工作的高层视图。您的应用程序类与配置元数据结合在一起，这样，在创建和初始化ApplicationContext之后，您就拥有一个完全配置和可执行的系统或应用程序。
 
-<<<<<<< HEAD
 ![container magic](pic/container-magic.png)
-=======
-![container](./02-01-02 容器概览(Container Overview).assets/container-magic.png)
->>>>>>> edc8d181a929fe88c0aa956bb478b6f2a3457db2
 
 ### 配置元数据（Configuration Metadata）
 
