@@ -12,6 +12,7 @@
     <p>通过IoC/DI，我们实现了对象之间的松耦合，使得它们更加灵活、可测试和可扩展。对象不再与特定的实现细节紧密耦合，而是依赖于抽象接口。这样，我们可以轻松地替换具体的实现，而不需要修改依赖对象的代码。此外，通过将依赖关系的创建和管理交给容器，我们可以更好地管理对象的生命周期和作用域。</p>
     <p>Spring Framework提供了强大的IoC/DI容器，它可以管理对象之间的依赖关系，并自动注入所需的依赖项。这样，我们可以专注于业务逻辑的开发，而不用担心对象的创建和依赖关系的管理。</p>
 </details>
+
 `org.springframework.beans`和`org.springframework.context`这两个包是Spring框架的IoC容器的基础。[`BeanFactory`](https://docs.spring.io/spring-framework/docs/6.0.9/javadoc-api/org/springframework/beans/factory/BeanFactory.html)接口提供了一种高级的配置机制，可以管理任何类型的对象。[`ApplicationContext`](https://docs.spring.io/spring-framework/docs/6.0.9/javadoc-api/org/springframework/context/ApplicationContext.html) 是 `BeanFactory`的一个子接口，新添加了：
 
 - 更容易与Spring的AOP特性集成
